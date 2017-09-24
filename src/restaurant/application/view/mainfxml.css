@@ -1,0 +1,67 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    -fx-background-image: url(../../../resources/pictures/restaurant-vintage-table.jpg);
+    -fx-background-size: 900px;
+    -fx-background-position: center;
+}
+
+.topBar {
+    -fx-background-color: rgba(79, 171, 160, 0.8);
+    -fx-background-radius: 2px;
+    -fx-border-color: #c9c9c9;
+    -fx-border-style: solid outside;
+    -fx-border-width: 2px;
+}
+
+.topBarLabel {
+    -fx-text-fill: white;
+}
+
+#labelMelting {
+    -fx-font-family: "Bookman Old Style";
+    -fx-font-style: normal;
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+}
+
+#labelPot {
+    -fx-font-family: "Bookman Old Style";
+    -fx-font-weight: bold;
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+}
+
+#mainButtonGrid {
+    -fx-background-color: rgba(209, 209, 209, 0.5);
+    -fx-border-color: black;
+    -fx-border-style: solid outside;
+    -fx-border-width: 5px;
+}
+
+#homeButton {
+    -fx-image: url(../../../resources/pictures/home_64_64.png);
+    
+}
+
+#reservationButton {
+    -fx-image: url(../../../resources/pictures/plus_64_64.png);
+}
+
+.orderButton {
+    -fx-image: url(../../../resources/pictures/order_64_64.png);
+}
+
+#paymentButton {
+    -fx-image: url(../../../resources/pictures/money_64_64.png);
+}
+
+#settingsButton {
+    -fx-image: url(../../../resources/pictures/settings_64_64.png);
+}
+
+.screenLabel {
+    -fx-text-fill: white;
+}

@@ -1,0 +1,48 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    -fx-background-image: url("../../../resources/pictures/restaurant.jpeg");
+    -fx-background-size: 1000px;
+    -fx-background-position: left top;
+}
+
+#labelMelting {
+    -fx-font-family: "Bookman Old Style";
+    -fx-font-style: normal;
+    -fx-font-size: 36px;
+    -fx-text-fill: white;
+}
+
+
+#labelPot {
+    -fx-font-family: "Berlin Sans FB";
+    -fx-font-weight: bold;
+    -fx-font-size: 48px;
+    -fx-text-fill: white;
+}
+
+.btnLogin {
+    -fx-background-color: #ff9933;
+}
+
+.textField {
+    -fx-background-color: #d9d9d9;
+}
+
+#userImage {
+    -fx-image: url(../../../resources/pictures/user.png);
+}
+
+#passImage {
+    -fx-image: url(../../../resources/pictures/password.png);
+}
+
+#mainBackground {
+    -fx-background-color:  rgba(0, 100, 100, 0.6);
+}
+
+.potImage {
+    -fx-image: url(../../../resources/pictures/boiling_pot.gif);
+}
